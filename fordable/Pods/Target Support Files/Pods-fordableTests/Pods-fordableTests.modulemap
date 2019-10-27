@@ -1,0 +1,6 @@
+framework module Pods_fordableTests {
+  umbrella header "Pods-fordableTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
