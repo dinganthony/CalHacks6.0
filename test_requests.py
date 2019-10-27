@@ -34,7 +34,7 @@ def stream_for_url(url):
         mydriver.find_element_by_id("macDesktopDialogCornerClose").click()
         time.sleep(1)
         mydriver.find_element_by_xpath("//div[contains(@class, \"playButtonContainer\")]/a[contains(@class, \"guideItemLink\")][1]").click()
-        time.sleep(2)
+        time.sleep(5)
         link = mydriver.find_element_by_xpath("//audio").get_attribute('src')
         return link
 
@@ -60,8 +60,16 @@ def parse_teams():
 teams, misses = parse_teams()
 
 #%%
-for team in sorted(teams.keys()):
-    print(team, teams[team])
+with open("teams.txt", "w") as fi:
+    for team in sorted(teams.keys()):
+        print(team, teams[team])
+        print(team, teams[team], file=fi)
 print("----------------")
 for miss in misses:
-    print(miss, misses[miss])
+    print("Missed:", miss, misses[miss])
+        
+
+#%%
+stream_for_url("http://www.tunein.com/radio/Oregon-Football-s206509/")
+
+#%%

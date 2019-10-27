@@ -7,8 +7,8 @@ app = Flask(__name__)
 @app.route('/', methods = ['GET'])
 def hello_world():
     try:
-        name = request.args.get("name")
-        return "Glen Robinson III is the " + name + " player in the NBA!"
+        word = request.args.get("word")
+        return "Glen Robinson III is the " + word + " player in the NBA!"
     except Exception:
         return "glennrobinsoniiiisthebestplayerinthenba"
 
