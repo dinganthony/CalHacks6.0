@@ -1,0 +1,6 @@
+framework module Pods_fordable {
+  umbrella header "Pods-fordable-umbrella.h"
+
+  export *
+  module * { export * }
+}
