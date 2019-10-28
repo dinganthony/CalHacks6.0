@@ -8,7 +8,7 @@ Team members:
 
 Praveen Batra (https://github.com/18praveenb)
 
-Kevin Chen (https://github.com/chevin_ken)
+Kevin Chen (https://github.com/chevin-ken)
 
 Anthony Ding (https://github.com/dinganthony)
 
