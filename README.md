@@ -6,10 +6,10 @@ Our team's project for CalHacks 6.0, SportsCar, uses the Ford AppLink API for ve
 
 Team members:
 
-Praveen Batra
+Praveen Batra (https://github.com/18praveenb)
 
-Kevin Chen
+Kevin Chen (https://github.com/chevin_ken)
 
-Anthony Ding
+Anthony Ding (https://github.com/dinganthony)
 
-Yongbo Wang
+Yongbo Wang (https://github.com/C-Qingpi)
